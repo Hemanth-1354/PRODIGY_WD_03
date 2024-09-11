@@ -1,98 +1,59 @@
-<div align=center>
-<img src='./design/cover.webp' alt='project-cover'>
-</div>
-<hr>
+# Tic-Tac-Toe Game
 
-## **Description**
+Welcome to the **Tic-Tac-Toe Game**, a simple, interactive web-based version of the classic two-player game where players take turns marking spaces on a 3x3 grid. The player who successfully places three of their marks in a horizontal, vertical, or diagonal row wins the game.
 
-- Built as part of The Odin Project, to play the game [click here](https://0xabdulkhalid.github.io/tic-tac-toe/)
-- The purpose of the project was to use the Module pattern and the Factory Pattern to build and design objects to incorporate game logic
-- The Game offers a Player vs Player game mode
+## Features
 
-## **Installation**
+- **Responsive Design**: The game adapts to different screen sizes and devices.
+- **Player Selection**: Choose whether Player 1 plays as X or O.
+- **Turn Indicator**: Visual indication of the current player's turn.
+- **Score Tracking**: Track the number of wins for both players and the number of ties.
+- **Restart and Quit Options**: Ability to restart the game or quit and reset scores.
+- **Next Round**: Continue playing rounds without losing track of scores.
+- **Game Logic**: Automatic detection of winning combinations and ties.
 
-> **Note** 
->> A live deployment of [`Tic-tac-toe`](https://0xabdulkhalid.github.io/tic-tac-toe/) is available on GitHub pages, check it out without need of installation
+## Technologies Used
 
-For those that would like to run the application and/or edit its source code on their local computer, follow the steps below:
+- **HTML5**: Structure and layout of the game.
+- **CSS3**: Styling, animations, and responsive design.
+- **JavaScript**: Game logic, dynamic UI updates, and interaction handling.
 
-1. Clone the repository with `git clone https://github.com/0xabdulkhalid/tic-tac-toe` or download it as a [.zip](https://github.com/0xabdulkhalid/tic-tac-toe/archive/refs/heads/main.zip) file and extract it.
-2. Navigate to where the repository is saved on your local machine and open up its `index.html` file on your preferred web browser.
+## How to Play
 
-<br>
+1. **Choose Your Side**: Pick whether Player 1 will be X or O.
+2. **Start Playing**: Players take turns by clicking on an empty cell in the game grid.
+3. **Winning**: The first player to align three symbols (horizontally, vertically, or diagonally) wins the round.
+4. **Tie**: If all the cells are filled without a winner, the game ends in a tie.
+5. **Restart**: You can restart the game at any point by clicking the restart button.
 
-## **Preview**
+## Setup Instructions
 
-| Desktop        |
-| :-------------: |
-| <img src='./design/desktop-preview.png' alt='desktop preview'>    |
+1. Clone the repository:
+   
+   git clone https://github.com/your-username/tic-tac-toe.git
+   
+2. Navigate to the project folder:
+      cd tic-tac-toe
+   
+3. Open the `index.html` file in your preferred web browser.
 
-| Tablet | Mobile |
-| :-----: | :-----: |
-| <img src='./design/tablet-preview.png' width='580px' alt='tablet preview'> | <img src='./design/mobile-preview.png' alt='mobile preview'> |
+## Customization
 
-<br>
+You can customize the game by modifying the following files:
+- **`styles.css`**: Customize the appearance of the game.
+- **`script.js`**: Modify or enhance the game logic.
 
-## **Outcome**
+## Future Enhancements
 
-* Game logic is built with **Module pattern** and **Factory Functions**
-* Efficiently used **data** attributes to manipulate dom elements
-* Well optimized **UI** and **UX**
-* Site was built responsive via **Mobile first workflow**
-* **Cross tested** on Firefox and Chromium based browsers
+- **Multiplayer Mode**: Play with a friend online by integrating a backend server.
+- **AI Opponent**: Add a single-player mode where the user competes against an AI.
+- **Animations**: Add more dynamic animations for winning sequences.
 
-<br>
+## Contributing
 
-## **What I learned**
-
-* Usage of **data-** attribute which provides the ability to embed custom data on all elements which will be used to further manipulate game logic
-* Usage of **module pattern** to improve the maintainability and reusability of the code by creating public and private access levels
-* Learned the Logic behind the Tic tac toe game
-* A lot of minor things
-
-<br>
-
-## **Built With**
-
-- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)   
-- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)   
-- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+If you'd like to contribute to the project, feel free to fork the repository and submit a pull request with your improvements.
 
 
-<br>
+---
 
-## **Tools Used**
-
-- ![Shell Script](https://img.shields.io/badge/Bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)   
-- ![Google](https://img.shields.io/badge/google-4285F4?style=for-the-badge&logo=google&logoColor=white) 
-- ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)   
-
-<br>
-
-## **Contributing**
-
-- Feel free to submit an issue should a bug be found using the application
-- One is also welcome to make a pull request should they seek to make a major change or introduce a new feature.
-
-<br>
-
-## **License**
-
-- [MIT License](https://github.com/0xabdulkhalid/tic-tac-toe/blob/main/LICENSE)
-- Copyright **©** 2023 - [0xabdulkhalid](https://github.com/0xabdulkhalid/)
-
-<br>
-
-## **Contact**
-
-<div align=center>
-
-<a href="https://www.0xabdulkhalid.ml" target="_blank">
-	<img src="https://img.shields.io/badge/website-1A2B33?style=for-the-badge&logo=About.me&logoColor=CDC2BC" alt="Personal Website">
-  </a> &nbsp;&nbsp;&nbsp;
-<a href="https://linkedin.com/in/0xabdulkhalid" target="_blank">
-	<img src="https://img.shields.io/badge/linkedin-%2300acee.svg?color=405DE6&style=for-the-badge&logo=linkedin&logoColor=white" alt=Linkedin>
-</a>
-
-</div>
-<br>
+Enjoy playing! ✨
