@@ -26,33 +26,6 @@ Welcome to the **Tic-Tac-Toe Game**, a simple, interactive web-based version of 
 4. **Tie**: If all the cells are filled without a winner, the game ends in a tie.
 5. **Restart**: You can restart the game at any point by clicking the restart button.
 
-## Setup Instructions
-
-1. Clone the repository:
-   
-   git clone https://github.com/your-username/tic-tac-toe.git
-   
-2. Navigate to the project folder:
-      cd tic-tac-toe
-   
-3. Open the `index.html` file in your preferred web browser.
-
-## Customization
-
-You can customize the game by modifying the following files:
-- **`styles.css`**: Customize the appearance of the game.
-- **`script.js`**: Modify or enhance the game logic.
-
-## Future Enhancements
-
-- **Multiplayer Mode**: Play with a friend online by integrating a backend server.
-- **AI Opponent**: Add a single-player mode where the user competes against an AI.
-- **Animations**: Add more dynamic animations for winning sequences.
-
-## Contributing
-
-If you'd like to contribute to the project, feel free to fork the repository and submit a pull request with your improvements.
-
 
 ---
 
